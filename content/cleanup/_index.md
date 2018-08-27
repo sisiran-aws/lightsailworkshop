@@ -1,0 +1,14 @@
+---
+title: "Cleanup"
+weight: 80
+---
+
+Be sure to either stop or delete all the resources from this lab so as not to incur additional charges. To cleanup the resources follow the steps below. 
+
+1) Navigate back to the Lightsail home page
+
+2) Delete the 5 lightsail instances you created by clicking the 3 dot menu on each instance and choosing ***delete***. You will need to confirm each action by clicking ***Yes, delete***
+
+3) Click ***Networking*** from the horizontal menu
+
+4) Click the 3 dot menu on the ***todo-lb*** load balancer and choose ***Delete***. You will need to confirm the action by clicking ***Yes, delete***
