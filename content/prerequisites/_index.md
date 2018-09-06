@@ -19,7 +19,7 @@ One is using our browser-based SSH client. This method is easy and convenient, b
 
 You can access your Lightsail instances using your preferred SSH client such as the built in terminal on a Mac or PUTTY on Windows. In order to do this you will need to download your SSH key from Lightsail. You'll also need to be aware of the username for each instance (for these labs the username is provided in the instructions), as well as the instance IP. 
 
-To download the SSH key peform the following steps
+To use your own SSH client follow these steps:
 
 1) From the Lightsail home page click on ***Account*** and select ***Account***
 
@@ -58,6 +58,6 @@ If you get an error that the permissions are too permissive on your private key,
 {{% /notice %}}
 
 {{% notice tip %}}
-For Windows users <a href="https://lightsail.aws.amazon.com/ls/docs/en/articles/lightsail-how-to-set-up-putty-to-connect-using-ssh" target="_blank">this doc</a> explains how to accepts how to do setup PUTTY to access Lightsail instances
+For Windows users <a href="https://lightsail.aws.amazon.com/ls/docs/en/articles/lightsail-how-to-set-up-putty-to-connect-using-ssh" target="_blank">this doc</a> explains how to to do setup PUTTY to access Lightsail instances
 {{% /notice %}}
 

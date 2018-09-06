@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab #2 on Scaling and Deploying Applications with Amazon Lightsail</title>
+    <link>http://lightsailworkshop.com/lab2.html</link>
+    <description>Recent content in Lab #2 on Scaling and Deploying Applications with Amazon Lightsail</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://lightsailworkshop.com/lab2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2.1 - Deploy MongoDB</title>
+      <link>http://lightsailworkshop.com/lab2/create_mongo.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://lightsailworkshop.com/lab2/create_mongo.html</guid>
+      <description>In this section you will deploy a standalone MongoDB instance. To start you will create an Ubuntu Linux instance using an OS Only blueprint. As part of the instance creation process you&amp;rsquo;ll supply a launch script that will install MongoDB.
+ From the Lightsail console home page click Create Instance
+ Make sure Linux/Unix is selected under Select a platform and then under Select a blueprint click OS Only and choose Ubuntu</description>
+    </item>
+    
+    <item>
+      <title>2.2 - Create the front-end instance</title>
+      <link>http://lightsailworkshop.com/lab2/create_fe.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://lightsailworkshop.com/lab2/create_fe.html</guid>
+      <description>Next you are going to create the web front end instance. To build the front end instance you will start with the Lightsail Node.js blueprint and add in the application code from GitHub. Additionally the isntance will use a process manager, PM2, to ensure that our application starts up automatically.
+Check out the website to learn more about PM2.
+ From the Lightsail console home page click Create Instance
+ Make sure Linux/Unix is selected under Select a platform and then under Select a blueprint choose Node.</description>
+    </item>
+    
+    <item>
+      <title>2.3 - Scale the front-end</title>
+      <link>http://lightsailworkshop.com/lab2/snapshots.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://lightsailworkshop.com/lab2/snapshots.html</guid>
+      <description>Return to the Lightsail console home page
+ Click the 3 dot menu for the node-fe-1 instance and choose Manage
+ From the horizontal menu choose Snapshots
+ Click Create Snapshot
+Under Recent snapshots the status will change to creating, you will need to wait for the process to complete to move forward. This can take up to 5 minutes.
+ Click the 3 dot menu to the right of the newly created snapshot and select Create new instance</description>
+    </item>
+    
+    <item>
+      <title>2.4 - Load balance the front-end</title>
+      <link>http://lightsailworkshop.com/lab2/load_balancer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://lightsailworkshop.com/lab2/load_balancer.html</guid>
+      <description>Return to the Lightsail console home page and choose Networking from the horizontal menu.
+ Click Create Load Balancer
+ Scroll down and enter todo-lb for the load balancer name
+ Click Create Load Balancer
+ Under Target instances choose node-fe-1 from the dropdown list
+ Click Attach
+ Click Attach another and repeat the previous two steps for node-fe-2 and node-fe-3
+  It will take several minutes for all three instances to register their health checks as Passed once this has happened, move to the next step</description>
+    </item>
+    
+  </channel>
+</rss>

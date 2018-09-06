@@ -1,0 +1,21 @@
+{
+  "name": "lightsailworkshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikegcoleman/lightsailworkshop.git"
+  },
+  "scripts": {
+    "server": "hugo server -w -v",
+    "build": "hugo -v",
+    "deploy": "aws s3 sync public/ s3://lightsail-workshop/ --delete --profile demo"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikegcoleman/lightsailworkshop/issues"
+  },
+  "homepage": "https://github.com/mikegcoleman/lightsailworkshop#readme"
+}

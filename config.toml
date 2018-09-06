@@ -1,7 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "http://lightsailworkshop.com/"
 languageCode = "en-us"
 theme = "hugo-theme-learn"
 title = "Scaling and Deploying Applications with Amazon Lightsail"
+uglyurls = true
 
 [params]
 themeVariant = "mine"

@@ -8,30 +8,28 @@ weight = 25
 Now that the application is installed and the database configured it is ready to be started. 
 
 {{% notice tip %}}
-The following steps are performed from the Lightsail instance command line
+The following steps are performed from the MEAN instance command line using either your own SSH client or Lightsail's web-based SSH access. 
 {{% /notice %}}
 
-1) Change into the application directory
+* Change into the application directory
 
-    cd ~/todo
+        cd ~/todo
 
-2) Start the application by executing the following command
+* Start the application by executing the following command
     
-    sudo DEBUG=app:* ./bin/www
+        sudo DEBUG=app:* ./bin/www
 
-You should see a message such as:
+    You should see a message such as:
 
-    app:* Listening on port 80 +0ms
+        app:* Listening on port 80 +0ms
 
-3) From the home page of the Lightsail console get the IP address of the MEAN instance and navigate to that address in a web browser.
+* From the <a href="https://lightsail.aws.amazon.com/ls/webapp/home/" target="_blank">Lightsail console home page</a> get the IP address of the MEAN instance and navigate to that address in a web browser.
 
-![](../../images/mean-ip.jpg?classes=border)
+    ![](../../images/mean-ip.jpg?classes=border)
 
-{{% notice tip %}}
-If you are not on the Lightsail home page click ***Home*** in the upper left corner of the Lightsail console
-{{% /notice %}}
+You should see the Todo application running. Add a task or two to make sure it's working as expected.  You can also see the host that is serving up the web front-end (this will become more important in the nexte section).
 
-You should see the ToDo application running. Add a task or two to make sure it's working as expected. 
+    ![](../../images/2-3-13.jpg?classes=border)
 
 {{% notice tip %}}
 You can also check the output in your SSH session to verify everything is working
