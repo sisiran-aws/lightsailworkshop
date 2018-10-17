@@ -1,12 +1,7 @@
 ---
-title: "Prerequisites"
+title: "Using SSH with Lightsail"
 weight: 60
 ---
-
-### Lab Prerequisites
-
-#### An AWS Account
-You must have an AWS account with sufficient permissions to access the Lightsail service and provision resources
 
 #### SSH Access
 

@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mikegcoleman/lightsailworkshop/issues"
   },
-  "homepage": "https://github.com/mikegcoleman/lightsailworkshop#readme"
+  "homepage": "https://github.com/mikegcoleman/lightsailworkshop#readme",
+  "dependencies": {
+    "npm": "^6.4.1"
+  }
 }

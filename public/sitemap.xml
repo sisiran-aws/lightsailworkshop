@@ -7,31 +7,59 @@
   </url>
   
   <url>
-    <loc>http://lightsailworkshop.com/lab2/create_mongo.html</loc>
+    <loc>http://lightsailworkshop.com/mean/lab2/create_mongo.html</loc>
   </url>
   
   <url>
-    <loc>http://lightsailworkshop.com/lab1/build_instance.html</loc>
+    <loc>http://lightsailworkshop.com/lamp/lab1/build_instance.html</loc>
   </url>
   
   <url>
-    <loc>http://lightsailworkshop.com/lab1/configure_mongo.html</loc>
+    <loc>http://lightsailworkshop.com/mean/lab1/build_instance.html</loc>
   </url>
   
   <url>
-    <loc>http://lightsailworkshop.com/lab2/create_fe.html</loc>
+    <loc>http://lightsailworkshop.com/lamp/lab3/reconfigure_mysql.html</loc>
   </url>
   
   <url>
-    <loc>http://lightsailworkshop.com/lab1/deploy_app.html</loc>
+    <loc>http://lightsailworkshop.com/mean/lab1/configure_mongo.html</loc>
   </url>
   
   <url>
-    <loc>http://lightsailworkshop.com/lab2/snapshots.html</loc>
+    <loc>http://lightsailworkshop.com/lamp/lab2/deploy_app.html</loc>
   </url>
   
   <url>
-    <loc>http://lightsailworkshop.com/lab2/load_balancer.html</loc>
+    <loc>http://lightsailworkshop.com/mean/lab2/create_fe.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://lightsailworkshop.com/lamp/lab1/deploy_database.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://lightsailworkshop.com/mean/lab1/deploy_app.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://lightsailworkshop.com/mean/lab2/snapshots.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://lightsailworkshop.com/lamp/lab4/snapshots.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://lightsailworkshop.com/lamp/lab1/create_lb.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://lightsailworkshop.com/mean/lab2/load_balancer.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://lightsailworkshop.com/lamp/lab4/load_balancer.html</loc>
   </url>
   
   <url>
@@ -39,15 +67,31 @@
   </url>
   
   <url>
+    <loc>http://lightsailworkshop.com/lamp/lab1.html</loc>
+  </url>
+  
+  <url>
     <loc>http://lightsailworkshop.com/prerequisites.html</loc>
   </url>
   
   <url>
-    <loc>http://lightsailworkshop.com/lab1.html</loc>
+    <loc>http://lightsailworkshop.com/mean.html</loc>
   </url>
   
   <url>
-    <loc>http://lightsailworkshop.com/lab2.html</loc>
+    <loc>http://lightsailworkshop.com/lamp/lab2.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://lightsailworkshop.com/mean/lab1.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://lightsailworkshop.com/mean/lab2.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://lightsailworkshop.com/lamp.html</loc>
   </url>
   
   <url>
@@ -55,7 +99,19 @@
   </url>
   
   <url>
-    <loc>http://lightsailworkshop.com/cleanup.html</loc>
+    <loc>http://lightsailworkshop.com/mean/cleanup.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://lightsailworkshop.com/lamp/lab3.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://lightsailworkshop.com/lamp/lab4.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://lightsailworkshop.com/lamp/cleanup.html</loc>
   </url>
   
   <url>

@@ -1,9 +1,9 @@
 ---
-title: "Conclusion"
+title: "Other Resources"
 weight: 75
 ---
 
-Thanks for taking the time to go through this workshop. It would be very helpful if you could take the time to fill out this 
+Thanks for taking the time to go through these exercises. It would be very helpful if you could take the time to fill out this 
 
 #### <a href="https://bit.ly/2C1hUyy" target="_blank">quick survey</a>
 
