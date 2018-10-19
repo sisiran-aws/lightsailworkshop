@@ -7,7 +7,7 @@ In this section you will deploy a standalone MongoDB instance. To start you will
 
 * From the <a href="https://lightsail.aws.amazon.com/ls/webapp/home/" target="_blank">Lightsail console home page</a> click ***Create Instance***
 
-    ![](../../images/2-1-1.jpg?classes=border) 
+    ![](../../images/2-1-1.jpg?classes=border)
 
 * Make sure ***Linux/Unix*** is selected under ***Select a platform*** and then under ***Select a blueprint*** click ***OS Only*** and choose ***Ubuntu***
 

@@ -25,7 +25,7 @@ It will take several minutes for all three instances to register their health ch
 
 ![](../../images/lamp-passed.jpg?classes=border)
 
-* From the top of the screen copy the long string following ***DNS name:***. This is the URL for your Lightsail load balancer. Any requests on this URL will be routed to one of your three front end instances. 
+* From the top of the screen copy the long string following ***DNS name:***. This is the URL for your Lightsail load balancer. Any requests to this URL will be routed to one of your three front end instances. 
 
     ![](../../images/2-4-8.jpg?classes=border)
 

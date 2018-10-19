@@ -26,6 +26,11 @@
 
 }
 
+img {
+    height: auto !important;
+    width: 75% !important;
+}
+
 body {
     color: var(--MAIN-TEXT-color) !important;
 }

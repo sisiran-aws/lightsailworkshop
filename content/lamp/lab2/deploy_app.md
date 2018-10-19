@@ -25,7 +25,7 @@ The following steps are performed from the LAMP instance command line using eith
         sudo chown bitnami:bitnami /opt/bitnami/apache2/configs
 
 {{% notice tip %}}
-As a best practice never store sensitive information in the document root of your web server. In production you would want to use a secrets management solution such as AWS Secrets Manager.
+As a best practice never store sensitive information in the document root of your web server. Ideally, in production you would use a secrets management solution such as AWS Secrets Manager.
 {{% /notice %}} 
 
 * Move the config file into the configuaration directory
@@ -46,7 +46,7 @@ As a best practice never store sensitive information in the document root of you
 
         cp /opt/bitnami/apache2/configs/config.php /opt/bitnami/apache2/configs/config.php.bak
 
-* Create a new condfiguration file to work with the locally installed database. The command below uses ***sed*** to go through the configuration file and replace placeholder values with the values of the environment variables we set the previous step. It writes these values into a new file (***config.php.monolithic***)
+* Create a new condfiguration file to work with the locally installed database. The command below uses ***sed*** to go through the configuration file and replace placeholder values with the values of the environment variables you set in the previous step. It writes these values into a new file (***config.php.monolithic***)
 
         cat /opt/bitnami/apache2/configs/config.php | \
         sed "s/<endpoint>/$ENDPOINT/; \
@@ -66,14 +66,14 @@ As a best practice never store sensitive information in the document root of you
 
         cat /opt/bitnami/apache2/configs/config.php
 
-With the configuration file updated, your PHP application know knows how to connect to the local database. 
+With the configuration file updated, your PHP application now knows how to connect to the local database. 
 
 * In a real-world application you would have defined processes on how to ready the database for production. In the case of the demo app you need to run a PHP script by pointing your web browser to `http://<your lightsail instance public ip>/install.php`. 
 
 ![](../../images/database-success.jpg?classes=border)
 
 {{% notice tip %}}
-To find your public IP check the card for your instance on the <a href="https://lightsail.aws.amazon.com/ls/webapp/home/" target="_blank">Lightsail console home page</a>. 
+To find the public IP of your lightsail intance check the card for your instance on the <a href="https://lightsail.aws.amazon.com/ls/webapp/home/" target="_blank">Lightsail console home page</a>. 
 {{% /notice %}}
 
 ![](../../images/lamp-ip.jpg?classes=border)

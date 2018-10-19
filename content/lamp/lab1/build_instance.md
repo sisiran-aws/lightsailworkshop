@@ -3,17 +3,21 @@ title = "1.1 - Build the LAMP instance"
 weight = 10
 +++
 
-The first step in deploying the Todo application is creating a LAMP stack instance in Lightsail. 
+The first step in deploying the sample application is creating a LAMP stack instance in Lightsail. 
 
 * From the <a href="https://lightsail.aws.amazon.com/ls/webapp/home/" target="_blank">Lightsail console home page</a> click ***Create Instance***
 
     ![](../../images/1-1-1.jpg?classes=border)
 
-* Choose the region you want to deploy your instance in to. Under ***Instance Location*** click ***Change AWS Region and Availability Zone*** and select the appropriate region. 
+* Choose the region for your instance. Under ***Instance Location*** click ***Change AWS Region and Availability Zone*** and select the appropriate region. 
 
     ![](../../images/region.jpg?classes=border)
 
-* Make sure that ***Linux/Unix*** is selected under ***Select a platform***, and then under ***Blueprint*** choose ***LAMP***
+{{% notice tip %}}
+Be sure to create all the resources for this workshop in the same region
+{{% /notice %}}
+
+* Make sure that ***Linux/Unix*** is selected under ***Select a platform***, and then under ***Blueprint*** choose ***LAMP (PHP5)***
     
     ![](../../images/lamp-blueprint.jpg?classes=border)
 
@@ -26,7 +30,7 @@ The first step in deploying the Todo application is creating a LAMP stack instan
 
     ![](../../images/lamp-create.jpg?classes=border)
 
-* Once the instance shows a state of running in the Lightsail console, SSH into it either using the built in SSH client or using your own (username: ***bitnami***). If you are unfamiliar with SSH please visit the SSH page at the top of the left hand menu on this website. 
+* Once the instance shows a state of running in the Lightsail console, SSH into it either using the built in SSH client or using your own (username: ***bitnami***). If you are unfamiliar with SSH please review <a href="../../prerequisites.html" target="_blank">the SSH primer</a>. 
 
      ![](../../images/lamp-running.jpg?classes=border)
 

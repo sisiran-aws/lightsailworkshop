@@ -3,6 +3,8 @@ title = "4.1 - Scale the front-end"
 weight = 25
 +++
 
+Lightsail makes it super simple to create snapshots of your instances with a single click. These snapshots can be used to backup and restore instances, scale instance sizes up or down, and/or to deploy a new instance. 
+
 * Return to the <a href="https://lightsail.aws.amazon.com/ls/webapp/home/" target="_blank">Lightsail console home page</a>
 
 * Click the 3 dot menu for the ***PHP-fe-1*** instance and choose ***Manage***
@@ -13,12 +15,12 @@ weight = 25
 
     ![](../../images/2-3-3.jpg?classes=border)
 
-* Click Create Snapshot
+* Click ***Create snapshot***
 
     ![](../../images/lamp-create-snapshot.jpg?classes=border)
 
 {{% notice tip %}}
-Under ***Recent snapshots*** the status will change to ***creating***, you will need to wait for the process to complete to move forward. This can take up to 5 minutes. 
+Under ***Recent snapshots*** the status will change to ***creating***, you will need to wait for the process to complete before moving forward. This can take up to 5 minutes. 
 {{% /notice %}}
 
 * Click the 3 dot menu to the right of the newly created snapshot and select ***Create new instance***

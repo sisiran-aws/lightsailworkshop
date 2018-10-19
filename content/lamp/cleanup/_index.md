@@ -3,7 +3,7 @@ title: "Cleanup"
 weight: 100
 ---
 
-Be sure to either stop or delete all the resources from this lab so as not to incur additional charges. To cleanup the resources follow the steps below. 
+Be sure to delete all the resources from this lab so as not to incur additional charges. To cleanup the resources follow the steps below. 
 
 1) Navigate back to the Lightsail home page
 

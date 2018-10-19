@@ -3,7 +3,7 @@ title = "Deploy and Scale a LAMP App"
 weight = 71
 +++
 
-This workshop consists of four hands-on labs that takes you from deploying a two-tier LAMP stack application in a single Lightsail instance to having a fully fault tolerant and scalable version of that same application. 
+This workshop consists of four hands-on labs that take you from deploying a two-tier LAMP stack application in a single Lightsail instance to having a fully fault tolerant and scalable version of that same application. 
 
 Specifically, the four labs cover:
 
