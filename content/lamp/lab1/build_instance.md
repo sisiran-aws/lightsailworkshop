@@ -35,5 +35,5 @@ Be sure to create all the resources for this workshop in the same region
      ![](../../images/lamp-running.jpg?classes=border)
 
 {{% notice tip %}} 
-Even though the instance shows a state of running, it may still be executing the startup script, and you won't be able to connect. If this is the case, give it a couple of minutes and try again. \
+Even though the instance shows a state of running, it may still be executing the startup script, and you won't be able to connect. If this is the case, give it a couple of minutes and try again.
 {{% /notice %}}

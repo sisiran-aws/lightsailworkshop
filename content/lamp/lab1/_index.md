@@ -9,7 +9,8 @@ In this lab you'll deploy the infrastructure componnets that will be used in sub
 
 Specifically you'll deploy:
 
-- A Lightsail instance based on the LAMP blueprint
-- A Lightsail database
-- A Lightsail load balancer
+- An Amazon Lightsail instance based on the LAMP blueprint
+- An Amazon Lightsail database
+- An Amazon Lightsail load balancer
+- An Amazaon RDS database
 
