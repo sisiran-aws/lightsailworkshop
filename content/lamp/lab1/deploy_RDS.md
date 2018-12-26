@@ -5,7 +5,15 @@ weight = 40
 
 Finally, you're going to deploy an Amazon Relational Database Service (RDS) database. Amazon RDS is a hosted database services that offers more advanced features than Lightsail databases (multiple database engines, more instances sizes, read replicas, etc). As your application requirements change, you may find that you need to move from an Amazon Lightsail database to Amazon RDS. Later in this workshop, you'll do just that: migrate your existing Amazon Lightsail database to Amazon RDS. 
 
-* From the <a href="https://us-west-2.console.aws.amazon.com/rds/home?region=us-west-2#GettingStarted:" target="_blank">Amazon RDS getting started page</a> select ***Create database*** from the card on the right. 
+
+
+* Navigate to the <a href="https://us-west-2.console.aws.amazon.com/rds/home?region=us-west-2#GettingStarted:" target="_blank">Amazon RDS getting started page</a> 
+
+{{% notice tip %}}
+The link above redirects to the US West 2 AWS region. Ensure that you're deploying your RDS database into the same region as you deployed your Lightsail resources. 
+{{% /notice %}} 
+
+* Select ***Create database*** from the card on the right. 
 
     ![](../../images/rds_create_database.jpg?classes=border)
 
