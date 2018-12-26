@@ -1,6 +1,6 @@
 +++
-title = "1.3 - Create the load balancer"
-weight = 30
+title = "1.2 - Create the load balancer"
+weight = 20
 +++
 
 In order to provide scalability and fault tolerance you will be deploying your web front end behind a Lightsail load balancer. Lightsail load balancers handle both HTTP and HTTPS traffic on ports 80 and 443 respectively. For HTTPS you can request a free certificate from AWS certificate manager (although configuring HTTPS connections is out of scope for this workshop).

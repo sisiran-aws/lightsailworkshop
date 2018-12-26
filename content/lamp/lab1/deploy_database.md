@@ -1,6 +1,6 @@
 +++
-title = "1.2 - Deploy the database"
-weight = 20
+title = "1.3 - Deploy the Lightsail DB"
+weight = 30
 +++
 
 In this section we'll deploy a Lightsail database. Lightsail databases are a managed database service that allow you to get away from the complexity of deploying and managing database software. Lightsail manages the underlying infrastructure and database engine, you only need to worry about creating and deploying the actual databases and tables running inside the service. 
