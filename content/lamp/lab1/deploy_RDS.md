@@ -41,6 +41,8 @@ The values for ***Master username*** and ***Master password*** should match the 
 
 * Under ***Network & Security*** ensure that ***Virtual Private Cloud (VPC)*** is set to your Default VPC. If you do not have a Default VPC, you will need to create one. 
 
+    ![](../../images/default_vpc.jpg?classes=border)
+
 * Scroll to the bottom of the page, and click ***Create database***
 
 {{% notice tip %}}
