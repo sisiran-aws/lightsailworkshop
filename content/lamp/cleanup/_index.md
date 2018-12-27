@@ -7,7 +7,7 @@ Be sure to delete all the resources from this lab so as not to incur additional 
 
 1) Navigate back to the Lightsail home page
 
-2) Delete the 3 lightsail instances you created by clicking the 3 dot menu on each instance and choosing ***delete***. You will need to confirm each action by clicking ***Yes, delete***
+2) Delete the 4 lightsail instances you created by clicking the 3 dot menu on each instance and choosing ***delete***. You will need to confirm each action by clicking ***Yes, delete***
 
 3) Click ***Networking*** from the horizontal menu
 
@@ -15,8 +15,12 @@ Be sure to delete all the resources from this lab so as not to incur additional 
 
 5) Click ***Home*** and then select ***Snapshots*** from the horizontal menu. 
 
-6) Click the 3 dot menu on the snapshot you created and choose ***Delete**. You will need to confirm the action by clicking ***Yes, delete***
+6) Click the 3 dot menu on the snapshots you created and choose ***Delete*** for each one. You will need to confirm the action by clicking ***Yes, delete***
 
 7) Click ***Home*** and then select ***Databases*** from the horizontal menu. 
 
 8) Click the 3 dot menu on the database you created and choose ***Delete**. You will need to confirm the action by clicking ***Yes, delete***
+
+9) Move into the Amazon RDS console and delete the Amazon RDS database you created. 
+
+10) Move into the EC2 Console and delete your Amazon EC2 instance and the related security groups. 
